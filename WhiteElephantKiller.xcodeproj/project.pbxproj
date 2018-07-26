@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2513403B21096BC8008ADA89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2513403A21096BC8008ADA89 /* AppDelegate.swift */; };
+		2513403D21096BC8008ADA89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2513403C21096BC8008ADA89 /* ViewController.swift */; };
+		2513403F21096BCA008ADA89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2513403E21096BCA008ADA89 /* Assets.xcassets */; };
+		2513404E21096BCA008ADA89 /* WhiteElephantKillerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2513404D21096BCA008ADA89 /* WhiteElephantKillerTests.swift */; };
+		2513405921096BCA008ADA89 /* WhiteElephantKillerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2513405821096BCA008ADA89 /* WhiteElephantKillerUITests.swift */; };
+		2513406721096C00008ADA89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2513406621096C00008ADA89 /* Main.storyboard */; };
+		2513406A21096C38008ADA89 /* WEKMethodScannerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2513406821096C38008ADA89 /* WEKMethodScannerExtension.swift */; };
+		2513406B21096C38008ADA89 /* WEKMethodScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2513406921096C38008ADA89 /* WEKMethodScanner.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2513404A21096BCA008ADA89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2513402F21096BC8008ADA89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2513403621096BC8008ADA89;
+			remoteInfo = WhiteElephantKiller;
+		};
+		2513405521096BCA008ADA89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2513402F21096BC8008ADA89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2513403621096BC8008ADA89;
+			remoteInfo = WhiteElephantKiller;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2513403721096BC8008ADA89 /* WhiteElephantKiller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhiteElephantKiller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2513403A21096BC8008ADA89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2513403C21096BC8008ADA89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2513403E21096BCA008ADA89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2513404321096BCA008ADA89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2513404421096BCA008ADA89 /* WhiteElephantKiller.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WhiteElephantKiller.entitlements; sourceTree = "<group>"; };
+		2513404921096BCA008ADA89 /* WhiteElephantKillerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhiteElephantKillerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2513404D21096BCA008ADA89 /* WhiteElephantKillerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteElephantKillerTests.swift; sourceTree = "<group>"; };
+		2513404F21096BCA008ADA89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2513405421096BCA008ADA89 /* WhiteElephantKillerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhiteElephantKillerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2513405821096BCA008ADA89 /* WhiteElephantKillerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteElephantKillerUITests.swift; sourceTree = "<group>"; };
+		2513405A21096BCA008ADA89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2513406621096C00008ADA89 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2513406821096C38008ADA89 /* WEKMethodScannerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WEKMethodScannerExtension.swift; sourceTree = "<group>"; };
+		2513406921096C38008ADA89 /* WEKMethodScanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WEKMethodScanner.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2513403421096BC8008ADA89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2513404621096BCA008ADA89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2513405121096BCA008ADA89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2513402E21096BC8008ADA89 = {
+			isa = PBXGroup;
+			children = (
+				2513403921096BC8008ADA89 /* WhiteElephantKiller */,
+				2513404C21096BCA008ADA89 /* WhiteElephantKillerTests */,
+				2513405721096BCA008ADA89 /* WhiteElephantKillerUITests */,
+				2513403821096BC8008ADA89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2513403821096BC8008ADA89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2513403721096BC8008ADA89 /* WhiteElephantKiller.app */,
+				2513404921096BCA008ADA89 /* WhiteElephantKillerTests.xctest */,
+				2513405421096BCA008ADA89 /* WhiteElephantKillerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2513403921096BC8008ADA89 /* WhiteElephantKiller */ = {
+			isa = PBXGroup;
+			children = (
+				2513403A21096BC8008ADA89 /* AppDelegate.swift */,
+				2513403C21096BC8008ADA89 /* ViewController.swift */,
+				2513406921096C38008ADA89 /* WEKMethodScanner.swift */,
+				2513406821096C38008ADA89 /* WEKMethodScannerExtension.swift */,
+				2513403E21096BCA008ADA89 /* Assets.xcassets */,
+				2513406621096C00008ADA89 /* Main.storyboard */,
+				2513404321096BCA008ADA89 /* Info.plist */,
+				2513404421096BCA008ADA89 /* WhiteElephantKiller.entitlements */,
+			);
+			path = WhiteElephantKiller;
+			sourceTree = "<group>";
+		};
+		2513404C21096BCA008ADA89 /* WhiteElephantKillerTests */ = {
+			isa = PBXGroup;
+			children = (
+				2513404D21096BCA008ADA89 /* WhiteElephantKillerTests.swift */,
+				2513404F21096BCA008ADA89 /* Info.plist */,
+			);
+			path = WhiteElephantKillerTests;
+			sourceTree = "<group>";
+		};
+		2513405721096BCA008ADA89 /* WhiteElephantKillerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2513405821096BCA008ADA89 /* WhiteElephantKillerUITests.swift */,
+				2513405A21096BCA008ADA89 /* Info.plist */,
+			);
+			path = WhiteElephantKillerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2513403621096BC8008ADA89 /* WhiteElephantKiller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2513405D21096BCA008ADA89 /* Build configuration list for PBXNativeTarget "WhiteElephantKiller" */;
+			buildPhases = (
+				2513403321096BC8008ADA89 /* Sources */,
+				2513403421096BC8008ADA89 /* Frameworks */,
+				2513403521096BC8008ADA89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhiteElephantKiller;
+			productName = WhiteElephantKiller;
+			productReference = 2513403721096BC8008ADA89 /* WhiteElephantKiller.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2513404821096BCA008ADA89 /* WhiteElephantKillerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2513406021096BCA008ADA89 /* Build configuration list for PBXNativeTarget "WhiteElephantKillerTests" */;
+			buildPhases = (
+				2513404521096BCA008ADA89 /* Sources */,
+				2513404621096BCA008ADA89 /* Frameworks */,
+				2513404721096BCA008ADA89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2513404B21096BCA008ADA89 /* PBXTargetDependency */,
+			);
+			name = WhiteElephantKillerTests;
+			productName = WhiteElephantKillerTests;
+			productReference = 2513404921096BCA008ADA89 /* WhiteElephantKillerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2513405321096BCA008ADA89 /* WhiteElephantKillerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2513406321096BCA008ADA89 /* Build configuration list for PBXNativeTarget "WhiteElephantKillerUITests" */;
+			buildPhases = (
+				2513405021096BCA008ADA89 /* Sources */,
+				2513405121096BCA008ADA89 /* Frameworks */,
+				2513405221096BCA008ADA89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2513405621096BCA008ADA89 /* PBXTargetDependency */,
+			);
+			name = WhiteElephantKillerUITests;
+			productName = WhiteElephantKillerUITests;
+			productReference = 2513405421096BCA008ADA89 /* WhiteElephantKillerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2513402F21096BC8008ADA89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = yaoli;
+				TargetAttributes = {
+					2513403621096BC8008ADA89 = {
+						CreatedOnToolsVersion = 9.4;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+					2513404821096BCA008ADA89 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 2513403621096BC8008ADA89;
+					};
+					2513405321096BCA008ADA89 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 2513403621096BC8008ADA89;
+					};
+				};
+			};
+			buildConfigurationList = 2513403221096BC8008ADA89 /* Build configuration list for PBXProject "WhiteElephantKiller" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2513402E21096BC8008ADA89;
+			productRefGroup = 2513403821096BC8008ADA89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2513403621096BC8008ADA89 /* WhiteElephantKiller */,
+				2513404821096BCA008ADA89 /* WhiteElephantKillerTests */,
+				2513405321096BCA008ADA89 /* WhiteElephantKillerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2513403521096BC8008ADA89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2513403F21096BCA008ADA89 /* Assets.xcassets in Resources */,
+				2513406721096C00008ADA89 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2513404721096BCA008ADA89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2513405221096BCA008ADA89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2513403321096BC8008ADA89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2513403D21096BC8008ADA89 /* ViewController.swift in Sources */,
+				2513406A21096C38008ADA89 /* WEKMethodScannerExtension.swift in Sources */,
+				2513403B21096BC8008ADA89 /* AppDelegate.swift in Sources */,
+				2513406B21096C38008ADA89 /* WEKMethodScanner.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2513404521096BCA008ADA89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2513404E21096BCA008ADA89 /* WhiteElephantKillerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2513405021096BCA008ADA89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2513405921096BCA008ADA89 /* WhiteElephantKillerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2513404B21096BCA008ADA89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2513403621096BC8008ADA89 /* WhiteElephantKiller */;
+			targetProxy = 2513404A21096BCA008ADA89 /* PBXContainerItemProxy */;
+		};
+		2513405621096BCA008ADA89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2513403621096BC8008ADA89 /* WhiteElephantKiller */;
+			targetProxy = 2513405521096BCA008ADA89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2513405B21096BCA008ADA89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2513405C21096BCA008ADA89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2513405E21096BCA008ADA89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WhiteElephantKiller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yaoli.WhiteElephantKiller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		2513405F21096BCA008ADA89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WhiteElephantKiller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yaoli.WhiteElephantKiller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		2513406121096BCA008ADA89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WhiteElephantKillerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yaoli.WhiteElephantKillerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhiteElephantKiller.app/Contents/MacOS/WhiteElephantKiller";
+			};
+			name = Debug;
+		};
+		2513406221096BCA008ADA89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WhiteElephantKillerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yaoli.WhiteElephantKillerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhiteElephantKiller.app/Contents/MacOS/WhiteElephantKiller";
+			};
+			name = Release;
+		};
+		2513406421096BCA008ADA89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WhiteElephantKillerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yaoli.WhiteElephantKillerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = WhiteElephantKiller;
+			};
+			name = Debug;
+		};
+		2513406521096BCA008ADA89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WhiteElephantKillerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yaoli.WhiteElephantKillerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = WhiteElephantKiller;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2513403221096BC8008ADA89 /* Build configuration list for PBXProject "WhiteElephantKiller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2513405B21096BCA008ADA89 /* Debug */,
+				2513405C21096BCA008ADA89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2513405D21096BCA008ADA89 /* Build configuration list for PBXNativeTarget "WhiteElephantKiller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2513405E21096BCA008ADA89 /* Debug */,
+				2513405F21096BCA008ADA89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2513406021096BCA008ADA89 /* Build configuration list for PBXNativeTarget "WhiteElephantKillerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2513406121096BCA008ADA89 /* Debug */,
+				2513406221096BCA008ADA89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2513406321096BCA008ADA89 /* Build configuration list for PBXNativeTarget "WhiteElephantKillerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2513406421096BCA008ADA89 /* Debug */,
+				2513406521096BCA008ADA89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2513402F21096BC8008ADA89 /* Project object */;
+}
