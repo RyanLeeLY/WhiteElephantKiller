@@ -15,6 +15,7 @@
 		2513406721096C00008ADA89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2513406621096C00008ADA89 /* Main.storyboard */; };
 		2513406A21096C38008ADA89 /* WEKMethodScannerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2513406821096C38008ADA89 /* WEKMethodScannerExtension.swift */; };
 		2513406B21096C38008ADA89 /* WEKMethodScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2513406921096C38008ADA89 /* WEKMethodScanner.swift */; };
+		2513406D210977DB008ADA89 /* WEKWindowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2513406C210977DB008ADA89 /* WEKWindowViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		2513406621096C00008ADA89 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		2513406821096C38008ADA89 /* WEKMethodScannerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WEKMethodScannerExtension.swift; sourceTree = "<group>"; };
 		2513406921096C38008ADA89 /* WEKMethodScanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WEKMethodScanner.swift; sourceTree = "<group>"; };
+		2513406C210977DB008ADA89 /* WEKWindowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WEKWindowViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				2513403C21096BC8008ADA89 /* ViewController.swift */,
 				2513406921096C38008ADA89 /* WEKMethodScanner.swift */,
 				2513406821096C38008ADA89 /* WEKMethodScannerExtension.swift */,
+				2513406C210977DB008ADA89 /* WEKWindowViewController.swift */,
 				2513403E21096BCA008ADA89 /* Assets.xcassets */,
 				2513406621096C00008ADA89 /* Main.storyboard */,
 				2513404321096BCA008ADA89 /* Info.plist */,
@@ -269,6 +272,7 @@
 				2513406A21096C38008ADA89 /* WEKMethodScannerExtension.swift in Sources */,
 				2513403B21096BC8008ADA89 /* AppDelegate.swift in Sources */,
 				2513406B21096C38008ADA89 /* WEKMethodScanner.swift in Sources */,
+				2513406D210977DB008ADA89 /* WEKWindowViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

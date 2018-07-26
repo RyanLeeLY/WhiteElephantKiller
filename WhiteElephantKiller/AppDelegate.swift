@@ -24,6 +24,15 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         // Insert code here to tear down your application
     }
     
+    func applicationShouldHandleReopen(_ sender: NSApplication, hasVisibleWindows flag: Bool) -> Bool {
+        if (flag) {
+            return false
+        } else {
+            sender.unhide(nil)
+            return true
+        }
+    }
+    
     @IBAction func saveDocument(_ sender: NSMenuItem) {
         NotificationCenter.default.post(name: NSNotification.Name(AppDelegateSaveDocumentNotification), object: nil)
     }
